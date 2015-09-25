@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fof>
+	<common>
+		<container>
+			<option name="componentNamespace">Dane\JDD</option>
+			<option name="factoryClass">FOF30\Factory\MagicFactory</option>
+			<option name="scaffolding">1</option>
+			<option name="saveScaffolding">1</option>
+		</container>
+
+		<dispatcher>
+			<option name="defaultView">Tours</option>
+		</dispatcher>
+
+		<model name="*">
+			<behaviors>Filters</behaviors>
+		</model>
+	</common>
+	<frontend>
+		<model name="Tours">
+			<behaviors merge="1">Enabled</behaviors>
+		</model>
+	</frontend>
+</fof>

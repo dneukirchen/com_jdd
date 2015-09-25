@@ -1,0 +1,15 @@
+.site.view-Tour #title, .site.view-Ship #title {
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.site.view-Tour #image, .site.view-Ship #image {
+	float: left;
+	margin: 5px 10px 5px 0;
+}
+
+.site #advanced label {
+	font-weight: bold;
+}

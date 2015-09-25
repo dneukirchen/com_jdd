@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form
+        type="browse"
+        show_header="1"
+        show_filters="1"
+        show_pagination="1"
+        norows_placeholder="COM_JDD_COMMON_NORECORDS"
+        cssfiles="media://jom_jdd/css/jdd.css">
+  <headerset>
+    <header name="jdd_ship_id" type="RowSelect" label="COM_JDD_SHIPS_JDD_SHIP_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="image" tdwidth="50" type="Field" label="COM_JDD_SHIPS_IMAGE_LBL"/>
+    <header name="enabled" tdwidth="1%" type="Published" label="COM_JDD_SHIPS_ENABLED_LBL" sortable="true"/>
+    <header name="title" type="Searchable" label="COM_JDD_SHIPS_TITLE_LBL"/>
+    <header name="max_passengers" type="Field" label="COM_JDD_SHIPS_MAX_PASSENGERS_LBL" sortable="true"/>
+    <header name="max_speed" type="Field" label="COM_JDD_SHIPS_MAX_SPEED_LBL" sortable="true"/>
+    <header name="lenght" type="Field" label="COM_JDD_SHIPS_LENGHT_LBL" sortable="true"/>
+    <header name="width" type="Field" label="COM_JDD_SHIPS_WIDTH_LBL" sortable="true"/>
+    <header name="year_built" type="Field" label="COM_JDD_SHIPS_YEAR_BUILT_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="jdd_ship_id" type="SelectRow" label="COM_JDD_SHIPS_JDD_SHIP_ID_LBL"/>
+    <field name="image" class="item-image" type="Media" label="COM_JDD_SHIPS_IMAGE_LBL"/>
+    <field name="enabled" type="Actions" label="COM_JDD_SHIPS_ENABLED_LBL"/>
+    <field name="title" type="Sortable" label="COM_JDD_SHIPS_TITLE_LBL" url="index.php?option=com_jdd&amp;view=Ship&amp;id=[ITEM:ID]&amp;[TOKEN]=1"/>
+    <field name="max_passengers" type="Text" label="COM_JDD_SHIPS_MAX_PASSENGERS_LBL"/>
+    <field name="max_speed" type="Text" label="COM_JDD_SHIPS_MAX_SPEED_LBL"/>
+    <field name="lenght" type="Text" label="COM_JDD_SHIPS_LENGHT_LBL"/>
+    <field name="width" type="Text" label="COM_JDD_SHIPS_WIDTH_LBL"/>
+    <field name="year_built" type="Calendar" format="%Y" label="COM_JDD_SHIPS_YEAR_BUILT_LBL"/>
+  </fieldset>
+</form>

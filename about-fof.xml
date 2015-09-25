@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fof>
+	<author>Nicholas Dionysopoulos</author>
+	<author-company>Akeeba Ltd</author-company>
+	<number-of-contributors>35</number-of-contributors>
+	<in-joomla-core-since>3.2</in-joomla-core-since> ???
+	<current-version>3.0.1</current-version>
+	<current-version-in-joomla>2.4.3</current-version-in-joomla>
+	<key-features>
+		<feature>Convention over configuration</feature>
+		<feature>Hierarchical Model View Controller (HMVC)</feature>
+		<feature>Namespaces</feature>
+		<feature>DI container</feature>
+		<feature>XML View Templates</feature>
+		<feature>Automatische JSON und CSV views</feature>
+		<feature>Media files overrides</feature>
+	</key-features>
+</fof>

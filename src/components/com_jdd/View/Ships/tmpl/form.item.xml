@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true" type="read"
+      cssfiles="media://com_jdd/css/jdd.css">
+  <fieldset name="basic">
+    <field name="image" label_placement="none" type="Media" label="COM_JDD_SHIPS_IMAGE_LBL"/>
+    <field name="title" label_placement="none" type="Text" label="COM_JDD_SHIPS_TITLE_LBL"/>
+    <field name="description" label_placement="none" type="Editor" label="COM_JDD_SHIPS_DESCRIPTION_LBL"/>
+  </fieldset>
+  <fieldset name="advanced">
+    <field name="max_passengers" type="Text" label="COM_JDD_SHIPS_MAX_PASSENGERS_LBL"/>
+    <field name="max_speed" type="Text"/>
+    <field name="lenght" type="Text" label="COM_JDD_SHIPS_LENGHT_LBL"/>
+    <field name="width" type="Text" label="COM_JDD_SHIPS_WIDTH_LBL"/>
+    <field name="year_built" type="Text" label="COM_JDD_SHIPS_YEAR_BUILT_LBL"/>
+  </fieldset>
+</form>

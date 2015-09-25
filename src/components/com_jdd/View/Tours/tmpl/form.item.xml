@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form
+        validate="true"
+        type="read"
+        cssfiles="media://com_jdd/css/jdd.css">
+  <fieldset name="basic">
+    <field name="title" label_placement="none" type="Text" label="COM_JDD_TOURS_TITLE_LBL"/>
+    <field name="image" label_placement="none" type="Media" label="COM_JDD_TOURS_IMAGE_LBL"/>
+    <field name="description" label_placement="none" type="Editor" label="COM_JDD_TOURS_DESCRIPTION_LBL"/>
+  </fieldset>
+    <fieldset name="advanced">
+        <field name="jdd_ship_id" type="Model" model="ships" key_field="jdd_ship_id" value_field="title" label="COM_JDD_TOURS_JDD_SHIP_ID_LBL"/>
+        <field name="price" type="Text" label="COM_JDD_TOURS_PRICE_LBL"/>
+        <field name="departure" type="Text" label="COM_JDD_TOURS_DEPARTURE_LBL"/>
+        <field name="starts_on" type="Text" label="COM_JDD_TOURS_STARTS_ON_LBL"/>
+        <field name="ends_on" type="Text" label="COM_JDD_TOURS_ENDS_ON_LBL"/>
+    </fieldset>
+    <fieldset name="action" class="text-right">
+        <field name="link" type="Button" htmlelement="a"
+               url="index.php?option=com_contact&amp;view=contact&amp;id=1"
+               label_placement="none" text="Jetzt Buchen!"
+               class="btn btn-success btn-large" />
+    </fieldset>
+</form>

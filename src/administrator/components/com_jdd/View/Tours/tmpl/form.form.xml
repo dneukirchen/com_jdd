@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true" tabbed="1" cssfiles="media://jom_jdd/css/jdd.css">
+  <fieldset name="basic" label="COM_JDD_TOURS_GROUP_BASIC" class="tab-pane active">
+    <field name="title" type="Text" label="COM_JDD_TOURS_TITLE_LBL" description="COM_JDD_TOURS_TITLE_DESC"/>
+    <field name="image" directory="/tours" type="Media" label="COM_JDD_TOURS_IMAGE_LBL" description="COM_JDD_TOURS_IMAGE_DESC"/>
+    <field name="description" type="Editor" label="COM_JDD_TOURS_DESCRIPTION_LBL" description="COM_JDD_TOURS_DESCRIPTION_DESC"/>
+    <field name="enabled" type="Published" label="COM_JDD_TOURS_ENABLED_LBL" description="COM_JDD_TOURS_ENABLED_DESC"/>
+  </fieldset>
+  <fieldset name="advanced" label="COM_JDD_TOURS_GROUP_ADVANCED" class="tab-pane">
+    <field name="jdd_ship_id" type="Model" model="ships" key_field="jdd_ship_id" value_field="title" label="COM_JDD_TOURS_JDD_SHIP_ID_LBL" description="COM_JDD_TOURS_JDD_SHIP_ID_DESC"/>
+    <field name="starts_on" type="Calendar" label="COM_JDD_TOURS_STARTS_ON_LBL" description="COM_JDD_TOURS_STARTS_ON_DESC"/>
+    <field name="ends_on" type="Calendar" label="COM_JDD_TOURS_ENDS_ON_LBL" description="COM_JDD_TOURS_ENDS_ON_DESC"/>
+    <field name="price" type="Text" append_text="€" label="COM_JDD_TOURS_PRICE_LBL" description="COM_JDD_TOURS_PRICE_DESC"/>
+    <field name="departure" type="Text" label="COM_JDD_TOURS_DEPARTURE_LBL" description="COM_JDD_TOURS_DEPARTURE_DESC"/>
+  </fieldset>
+</form>

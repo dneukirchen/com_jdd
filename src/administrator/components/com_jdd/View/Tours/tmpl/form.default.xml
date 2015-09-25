@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse" show_header="1" show_filters="1" show_pagination="1" norows_placeholder="COM_JDD_COMMON_NORECORDS"
+       cssfiles="media://jom_jdd/css/jdd.css">
+  <headerset>
+    <header name="jdd_tour_id" type="RowSelect" label="COM_JDD_TOURS_JDD_TOUR_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="image" tdwidth="50" type="Field" label="COM_JDD_TOURS_IMAGE_LBL"/>
+    <header name="enabled" tdwidth="1%" type="Published" label="COM_JDD_TOURS_ENABLED_LBL" sortable="true"/>
+    <header name="title" type="Searchable" label="COM_JDD_TOURS_TITLE_LBL"/>
+    <header name="jdd_ship_id" type="Model" model="ships" key_field="jdd_ship_id" value_field="title" label="COM_JDD_TOURS_JDD_SHIP_ID_LBL" sortable="true"/>
+    <header name="price" type="Field" label="COM_JDD_TOURS_PRICE_LBL" sortable="true"/>
+    <header name="departure" type="Field" label="COM_JDD_TOURS_DEPARTURE_LBL" sortable="true"/>
+    <header name="starts_on" type="Field" label="COM_JDD_TOURS_STARTS_ON_LBL" sortable="true"/>
+    <header name="ends_on" type="Field" label="COM_JDD_TOURS_ENDS_ON_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="jdd_tour_id" type="SelectRow" label="COM_JDD_TOURS_JDD_TOUR_ID_LBL"/>
+    <field name="image" type="Media" label="COM_JDD_TOURS_IMAGE_LBL"/>
+    <field name="enabled" type="Actions" label="COM_JDD_TOURS_ENABLED_LBL"/>
+    <field name="title" type="Sortable" label="COM_JDD_TOURS_TITLE_LBL" url="index.php?option=com_jdd&amp;view=Tour&amp;id=[ITEM:ID]&amp;[TOKEN]=1"/>
+    <field name="jdd_ship_id" type="Model" model="ships" key_field="jdd_ship_id" value_field="title" label="COM_JDD_TOURS_JDD_SHIP_ID_LBL"/>
+    <field name="price" type="Text" label="COM_JDD_TOURS_PRICE_LBL"/>
+    <field name="departure" type="Text" label="COM_JDD_TOURS_DEPARTURE_LBL"/>
+    <field name="starts_on" format="%d.%m.%Y %H:%M" type="Calendar" label="COM_JDD_TOURS_STARTS_ON_LBL"/>
+    <field name="ends_on" format="%d.%m.%Y %H:%M" type="Calendar" label="COM_JDD_TOURS_ENDS_ON_LBL"/>
+  </fieldset>
+</form>

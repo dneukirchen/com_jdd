@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true" tabbed="1" cssfiles="media://jom_jdd/css/jdd.css">
+	<fieldset name="basic" label="COM_JDD_SHIPS_GROUP_BASIC" class="tab-pane active">
+		<field name="title" type="Text" label="COM_JDD_SHIPS_TITLE_LBL" description="COM_JDD_SHIPS_TITLE_DESC"/>
+		<field name="image" directory="/ships" type="Media" label="COM_JDD_SHIPS_IMAGE_LBL" description="COM_JDD_SHIPS_IMAGE_DESC"/>
+
+		<field name="description" type="Editor" label="COM_JDD_SHIPS_DESCRIPTION_LBL"
+			   description="COM_JDD_SHIPS_DESCRIPTION_DESC"/>
+		<field name="enabled" type="Published" label="COM_JDD_SHIPS_ENABLED_LBL"
+			   description="COM_JDD_SHIPS_ENABLED_DESC"/>
+	</fieldset>
+	<fieldset name="advanced" label="COM_JDD_SHIPS_GROUP_ADVANCED" class="tab-pane">
+		<field name="max_passengers" type="Text" label="COM_JDD_SHIPS_MAX_PASSENGERS_LBL"
+			   description="COM_JDD_SHIPS_MAX_PASSENGERS_DESC"/>
+		<field name="max_speed" append_text="Knoten" type="Text" label="COM_JDD_SHIPS_MAX_SPEED_LBL"
+			   description="COM_JDD_SHIPS_MAX_SPEED_DESC"/>
+		<field name="lenght" append_text="m" type="Text" label="COM_JDD_SHIPS_LENGHT_LBL" description="COM_JDD_SHIPS_LENGHT_DESC"/>
+		<field name="width" append_text="m" type="Text" label="COM_JDD_SHIPS_WIDTH_LBL" description="COM_JDD_SHIPS_WIDTH_DESC"/>
+		<field name="year_built" type="Calendar" label="COM_JDD_SHIPS_YEAR_BUILT_LBL"
+			   description="COM_JDD_SHIPS_YEAR_BUILT_DESC"/>
+	</fieldset>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conference>
+	<name>Joomla Day Deutschland</name>
+	<year>2015</year>
+	<city>Hamburg</city>
+	<session>
+		<title>Rapid Application Development mit Joomla</title>
+		<speaker>
+			<name>David Neukirchen</name>
+			<city>Köln</city>
+			<job>Webentwickler</job>
+		</speaker>
+	</session>
+</conference>

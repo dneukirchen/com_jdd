@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true" serverside_validate="true"
+      cssfiles="media://com_jdd/css/jdd.css">
+  <fieldset name="scaffolding" label="COM_JDD_SHIPS_GROUP_BASIC">
+    <field name="title" type="Text" label="COM_JDD_SHIPS_TITLE_LBL" description="COM_JDD_SHIPS_TITLE_DESC"/>
+    <field name="image" type="Media" label="COM_JDD_SHIPS_IMAGE_LBL" description="COM_JDD_SHIPS_IMAGE_DESC"/>
+    <field name="max_passengers" type="Text" label="COM_JDD_SHIPS_MAX_PASSENGERS_LBL" description="COM_JDD_SHIPS_MAX_PASSENGERS_DESC"/>
+    <field name="max_speed" type="Text" label="COM_JDD_SHIPS_MAX_SPEED_LBL" description="COM_JDD_SHIPS_MAX_SPEED_DESC"/>
+    <field name="lenght" type="Text" label="COM_JDD_SHIPS_LENGHT_LBL" description="COM_JDD_SHIPS_LENGHT_DESC"/>
+    <field name="width" type="Text" label="COM_JDD_SHIPS_WIDTH_LBL" description="COM_JDD_SHIPS_WIDTH_DESC"/>
+    <field name="year_built" type="Calendar" label="COM_JDD_SHIPS_YEAR_BUILT_LBL" description="COM_JDD_SHIPS_YEAR_BUILT_DESC"/>
+    <field name="description" type="Editor" label="COM_JDD_SHIPS_DESCRIPTION_LBL" description="COM_JDD_SHIPS_DESCRIPTION_DESC"/>
+    <field name="enabled" type="Published" label="COM_JDD_SHIPS_ENABLED_LBL" description="COM_JDD_SHIPS_ENABLED_DESC"/>
+  </fieldset>
+</form>

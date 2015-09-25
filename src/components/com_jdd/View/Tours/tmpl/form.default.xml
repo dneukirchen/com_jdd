@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse"
+	  show_header="1"
+	  show_filters="0"
+	  show_pagination="1"
+	  norows_placeholder="COM_JDD_COMMON_NORECORDS"
+	  cssfiles="media://com_jdd/css/jdd.css">
+	<headerset>
+		<header name="image" tdwidth="150" type="Field" label="COM_JDD_TOURS_IMAGE_LBL"/>
+		<header name="title" type="Searchable" label="COM_JDD_TOURS_TITLE_LBL"/>
+		<header name="jdd_ship_id" type="Model" model="ships" key_field="jdd_ship_id" value_field="title"
+				label="COM_JDD_TOURS_JDD_SHIP_ID_LBL" sortable="true"/>
+		<header name="price" type="Field" label="COM_JDD_TOURS_PRICE_LBL" sortable="true"/>
+		<header name="starts_on" type="Field" label="COM_JDD_TOURS_STARTS_ON_LBL" sortable="true"/>
+		<header name="ends_on" type="Field" label="COM_JDD_TOURS_ENDS_ON_LBL" sortable="true"/>
+	</headerset>
+	<fieldset name="items">
+		<field name="image" type="Media" label="COM_JDD_TOURS_IMAGE_LBL"/>
+		<field name="title" type="Sortable" label="COM_JDD_TOURS_TITLE_LBL"
+			   url="index.php?option=com_jdd&amp;view=Tour&amp;id=[ITEM:ID]"/>
+		<field name="jdd_ship_id" type="Model" model="ships" key_field="jdd_ship_id" value_field="title"
+			   label="COM_JDD_TOURS_JDD_SHIP_ID_LBL" url="index.php?option=com_jdd&amp;view=Ship&amp;id=[ITEM:JDD_SHIP_ID]"/>
+		<field name="price" type="Integer" label="COM_JDD_TOURS_PRICE_LBL"/>
+		<field name="starts_on" type="Calendar" format="%d.%m.%Y %H:%M" label="COM_JDD_TOURS_STARTS_ON_LBL"/>
+		<field name="ends_on" type="Calendar" format="%d.%m.%Y %H:%M"  label="COM_JDD_TOURS_ENDS_ON_LBL"/>
+	</fieldset>
+</form>
